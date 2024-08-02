@@ -7,3 +7,35 @@ body {
     background-color: black;
     color: #fff;
 }
+
+header  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+    margin-left: 77px;
+    margin-right: 76px;
+    margin-bottom: 169px;
+}
+
+header ol {
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+    list-style-type: none;
+    
+}
+
+ol .home-style {
+    font-weight: bold;
+}
+
+header button {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 102px;
+    height: 32px;
+}
+
+
+
