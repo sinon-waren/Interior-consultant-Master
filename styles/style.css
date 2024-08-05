@@ -75,6 +75,23 @@ header button {
 .profil-designer img {
     width: 50px;
     border-radius: 50%;
+    left: 31px;
+    top: 18px;
+    position: absolute;
+}
+
+.profil-designer p {
+    position: absolute;
+    left: 100px;
+    top: 23px;
+    width: 102px;
+}
+
+.profil-designer h3 {
+    position: absolute;
+    left: 26px;
+    top: 96px;
+    width: 287px;
 }
 
 
