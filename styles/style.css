@@ -6,6 +6,11 @@
 body {
     background-color: black;
     color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h3 {
+    font-family: "Lora", serif; 
 }
 
 header  {
@@ -25,8 +30,14 @@ header ol {
     
 }
 
+ol li {
+    font-size: 18px;
+}
+
 ol .home-style {
     font-weight: bold;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
 }
 
 header button {
@@ -35,6 +46,9 @@ header button {
     border: 2px solid #fff;
     width: 102px;
     height: 32px;
+    font-family: "Crimson Pro", serif;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
 .hero {
@@ -47,11 +61,24 @@ header button {
 .hero h1 {
     margin-top: 136px;
     margin-bottom: 40px;
+    font-size: 48px;
 }
 
 .description-modern-interior p {
     margin-bottom: 48px;
     width: 410px;
+    font-size: 24px;
+}
+
+.description-modern-interior span {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.description-modern-interior img {
+    width: 24px;
+    
 }
 
 .image-description {
@@ -85,6 +112,12 @@ header button {
     left: 100px;
     top: 23px;
     width: 102px;
+    font-size: 14px;
+}
+
+.profil-designer p span {
+    font-size: 12px;
+    color: #828282;
 }
 
 .profil-designer h3 {
@@ -92,6 +125,7 @@ header button {
     left: 26px;
     top: 96px;
     width: 287px;
+    font-size: 24px;
 }
 
 
