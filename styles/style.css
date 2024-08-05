@@ -70,6 +70,10 @@ header button {
     font-size: 24px;
 }
 
+.read-more {
+    display: flex;
+}
+
 .description-modern-interior span {
     font-size: 18px;
     font-weight: bold;
@@ -77,8 +81,8 @@ header button {
 }
 
 .description-modern-interior img {
-    width: 24px;
-    
+    width: 24px; 
+    margin-left: 11px;  
 }
 
 .image-description {
