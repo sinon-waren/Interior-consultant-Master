@@ -19,13 +19,17 @@
   <header>
     <button>This Interior</button>
     <div class="menu">
-      <img src="./images/icons8-menu-50.png" alt="icon menu">
-      <ol>
-        <li class="home-style">Home</li>
-        <li>Collection</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ol>
+      <div class="menu-icon" onclick="toggleMenu()">
+        <img src="./images/icons8-menu-50.png" alt="icon menu">
+      </div>
+      <nav class="navbar" id="navbar">
+        <ol>
+          <li class="home-style">Home</li>
+          <li>Collection</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ol>
+      </nav> 
     </div>
   </header>
   <section class="hero">
@@ -45,6 +49,7 @@
       </div>
     </div>
   </section>
+  <script src="./script.js"></script>
   
 </body>
 </html>
